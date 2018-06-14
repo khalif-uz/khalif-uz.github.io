@@ -1,0 +1,31 @@
+@media(min-width: 992px){
+	.header .navbar-brand{
+		/*d-n*/
+		display: none;
+	}
+}
+@media(max-width: 992px){
+	.header .navbar-nav .nav-item-logo{
+		/*d-n*/
+		display: none;
+	}
+}
+@media(max-width: 992px){
+	.header .navbar-nav{
+		background-color: rgba(255,255,255,.5);
+	}
+	.header .header_cover .title{
+		font-size: 10vw;
+		line-height: 15vw;
+	}
+	.header{
+		padding-bottom: 33vw;
+	}
+	.header .header_cover{
+		margin-top: 20vw;
+	}
+	.header .header_cover .btn_red{
+		padding: 12px 35px;
+		font-size: 14px;
+	}
+}

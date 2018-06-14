@@ -1,0 +1,49 @@
+a, a:hover, a:focus{
+	/*td*/
+	text-decoration: none;
+	/*c-i*/
+	color: inherit;
+}
+ul{
+	/*lis-n*/
+	list-style: none;
+}
+body{
+	/*miw320*/
+	min-width: 320px;
+}
+
+.header{
+	/*bgi*/
+	background-image: url(../img/formy_linii_raznotsvetnyj_abstraktsiya_104775_1920x1080.jpg);
+	min-height: 100vh;
+	/*bgs*/
+	background-size: cover;
+	/*bgp*/
+	padding-bottom: 265px;
+}
+.header ul.navbar-nav{
+	/*jc-sb*/
+	justify-content: space-between;
+	/*w100p*/
+	width: 100%;
+	/*ai-c*/
+	align-items: center;
+}
+.header li{
+	background-color: rgba(0,0,0,.5);
+	border-radius: 50%;
+
+}
+.header .header_cover{
+	margin-top: 170px;
+	text-align: center;
+	color: #fff
+}
+.header .header_cover b{
+	color: #ff0000;
+}
+.header .header_cover .title{
+font-size: 70px;
+line-height: 100px;
+}
